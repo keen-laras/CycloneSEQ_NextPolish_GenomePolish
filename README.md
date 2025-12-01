@@ -21,8 +21,11 @@ NGS short-reads (.fastq) is prepared as sgs.fofn
 Raw long-reads (.fastq) is prepared as lgs.fofn
 
 ### 3. Upload or use configuration text
-Your .fofn files' directory can be directly inputted in the config.txt
+Your .fofn files' directory can be directly inputted in the [config.txt](https://github.com/keen-laras/CycloneSEQ_NextPolish_GenomePolish/blob/main/config.txt)
 
 ### 4. Run software
+`nextPolish config.txt`
+
+Please remember to set the mem and CPU setting in config.txt accordingly!
 
 ### 5. Output analysis
